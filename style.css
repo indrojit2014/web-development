@@ -1,0 +1,27 @@
+/*sudo class css*/
+/*lectur 3.5--1 */
+input:focus{
+ font-weight:bold;
+ font-size: 20px;
+ color: green;
+}
+li:first-child{
+ background: red;
+ color: green;
+}
+li:last-child{
+ background: green;
+ color: red;
+}
+li:nth-child(2n){
+ background:yellow;
+ color:blue;
+}
+li:nth-child(2n+1){
+ background:cyan;
+ color: lightgray;
+}
+.youtube:visited{
+ color:blue;
+}
+/*end modul 3.5*/
